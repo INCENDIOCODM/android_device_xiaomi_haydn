@@ -1,7 +1,7 @@
 echo 'Starting to clone stuffs needed to build for Haydn'
 
 # Common Tree
-git clone --depth=1 https://github.com/xiaomi-haydn-devs/android_device_xiaomi_sm8350-common -b lineage-22 device/xiaomi/sm8350-common
+git clone --depth=1 https://github.com/INCENDIOCODM/android_device_xiaomi_sm8350-common -b lineage-22 device/xiaomi/sm8350-common
 
 # Haydn Vendor
 git clone --depth=1 https://github.com/xiaomi-haydn-devs/proprietary_vendor_xiaomi_haydn -b lineage-22 vendor/xiaomi/haydn
